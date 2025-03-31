@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+}
